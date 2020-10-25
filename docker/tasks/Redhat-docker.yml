@@ -8,6 +8,7 @@
           name: docker-repo
           baseurl: https://download.docker.com/linux/centos/7/x86_64/stable/
           description: Docker yum repo setup
+          gpgcheck: yes
 
 - name: Python 3 install
   package:
